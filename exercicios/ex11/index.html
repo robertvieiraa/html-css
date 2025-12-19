@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"><!--tem uma ordem a ser seguida-->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <br>
+
+    <audio src="midia/guanacast-33.mp3" controls></audio><!--formatos compatíveis: MP3, WAV e OGG-->
+
+    <br>
+    
+    <audio controls preload="metadata" loop>
+        <source src="midia/clock-audio.mp3" type="audio/mpeg">
+        <source src="midia/clock-audio.ogg" type="audio/ogg">
+        <source src="midia/clock-audio.wav" type="audio/wav">
+        <p>Faça o download do áudio <a href="midia/clock-audio.mp3" download="clock-audio.mp3" type="audio/mpeg">clicando aqui</a>.</p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        * {
+            height: 100%;
+            color: #fff;
+        }
+
+        .grad1 {
+            width: 250px;
+            height: 250px;
+            background-image: linear-gradient(-45deg, #7710FF, #C000F7, #FF00BE, #FF0C3F, #FFBD00);
+        }
+
+        .grad2 {
+            width: 250px;
+            height: 250px;
+            background-image: linear-gradient(to left, white 50%, blue);
+        }
+
+        .grad3 {
+            width: 250px;
+            height: 250px;
+            background-image: radial-gradient(circle, #7710FF, #C000F7, #FF00BE, #FF0C3F, #FFBD00);
+        }
+    </style>
+</head>
+<body>
+    <div class="grad1">
+        <p>Gradiente 1</p>
+    </div>
+    <div class="grad2">
+        <p>Gradiente 2</p>
+    </div>
+    <div class="grad3">
+        <p>Gradiente 3</p>
+    </div>
+</body>
+</html>
