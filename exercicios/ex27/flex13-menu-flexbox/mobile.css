@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+header, header > nav {
+    flex-direction: column;
+}
+
+header > h1 {
+    flex-basis: 50px;/* dimensão no eixo principal */
+}
+
+header > nav > a {
+    width: 90vw;
+}
